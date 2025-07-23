@@ -12,3 +12,4 @@ if file is not None:
     img = Image.open(file)
     st.image(img,"Uploaded Image",width=500)
     st.button("genererate caption")
+
